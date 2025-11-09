@@ -15,18 +15,19 @@
     <p>{{ date }}</p>
     <h3>Yapılacaklar:</h3>
 <form method="POST">
-<form method="POST">
 <ul class="todo-list">
     {% for todo in todos %}
         <li>
-            <input type="checkbox" name="checked_{{ todo }}" value="{{ todo }}">
+            <input type="checkbox" 
+                   name="checked_{{ loop.index }}" 
+                   value="{{ todo }}"
+                   {% if todo in completed_todos %}checked{% endif %}>
             <span>{{ todo }}</span>
         </li>
     {% endfor %}
 </ul>
-<button type="submit">Save</button>
+<button type="submit" style="padding: 15px 30px; font-size: 24px; cursor: pointer;">💾 SAVE</button>
 </form>
-
 
 </body>
 </html>
