@@ -1,0 +1,36 @@
+ul {
+    list-style: none;  /* • işaretini kaldır */
+}
+.list {
+    display: flex;
+    justify-content: space-around;
+}
+.list-item a {
+    padding: 40px;             /* İç boşluk (tıklanabilir alan genişler) */
+    border-radius: 48px;       /* Köşeleri yuvarla */
+    border: 5px solid #eb802c; /* Kenarlık ekle */
+    text-decoration: none;     /* Alt çizgiyi kaldır */
+    font-size: 36px;        /* Yazı boyutunu ayarla */
+    background-color: #ffffff; /* Add white background */
+}
+body {
+    text-align: center;
+    font-size: 40px;
+    font-family: serif;
+    background-image: url('../img/pattern.jpg');
+    background-repeat: repeat;
+    background-position: top left;
+    background-size: auto;
+}
+
+.todo-list input[type="checkbox"] {
+    margin-right: 12px;         /* space between checkbox and text */
+    transform: scale(2.8);      /* make the checkbox larger */
+    margin-top: 12px;
+}
+
+.list-item-2 a {
+    font-size: 10px;        /* Yazı boyutunu ayarla */
+    padding: 10px;             /* İç boşluk (tıklanabilir alan genişler) */
+    background-color: #ffffff; /* Add white background */
+}

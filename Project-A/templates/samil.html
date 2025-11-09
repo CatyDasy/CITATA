@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html lang="tr"></html>
+<head>
+    <meta charset="UTF-8">
+    <title>Samil'ın Yapılacaklar Listesi</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+    <link rel="icon" type="image/png" href="/static/img/apple-touch-icon.png"/>
+</head>
+<body>
+    <h1>Samil'ın Yapılacaklar Listesi</h1>
+    <h2>Gun:</h2>
+    <p>{{ day }}</p>
+    <h2>Saat:</h2>
+    <p>{{ date }}</p>
+    <h3>Yapılacaklar:</h3>
+<form method="POST">
+<form method="POST">
+<ul class="todo-list">
+    {% for todo in todos %}
+        <li>
+            <input type="checkbox" name="checked_{{ todo }}" value="{{ todo }}">
+            <span>{{ todo }}</span>
+        </li>
+    {% endfor %}
+</ul>
+<button type="submit">Save</button>
+</form>
+
+</body>
+</html>

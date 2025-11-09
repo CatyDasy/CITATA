@@ -1,0 +1,169 @@
+
+{
+    "Comments":[
+        "SPORT= Push-Up 8x, Pull-up 10x, FirazZahabi 30x, FirazWalkingZahabi, dumble"
+    ],
+    "TODOS":{
+        "Minggu":{ 
+            "Habis sholat subuh":[
+                "Dzikir 100x",
+                "SPORT",
+                "Pancasila",
+                "PJOK",
+                "Ar-Rahman +4"
+            ],
+            "Setelah azan dzuhur":[
+                "Sholat dzuhur",
+                "Tidur Siang"
+            ],
+            "Bangun tidur siang - Ashar":[
+                "TesnorFlow",
+                "Buku Python",
+                "SPORT",
+                "Ar-Rahman +4"
+            ],
+            "Ashar - Isha":[
+                "MUSASHI -bab"
+            ]
+            
+        },
+        "Senin":{
+            "Habis sholat subuh":[
+                "Dzikir 100x",
+                "SPORT",
+                "Bahasa Indonesia",
+                "IPAS",
+                "Ar-Rahman +4"
+            ],
+            "Setelah azan dzuhur":[
+                "Sholat dzuhur",
+                "Tidur Siang"
+            ],
+            "Bangun tidur siang - Ashar":[
+                "TesnorFlow",
+                "Kali Linux",
+                "SPORT",
+                "Ar-Rahman +4"
+            ],
+            "Ashar - Isha":[
+                "MUSASHI -bab"
+            ]
+            
+        },
+        "Selasa":{
+            "Habis sholat subuh":[
+                "Dzikir 100x",
+                "SPORT",
+                "Pancasila",
+                "PJOK",
+                "Ar-Rahman +4"
+            ],
+            "Setelah azan dzuhur":[
+                "Sholat dzuhur",
+                "Tidur Siang"
+            ],
+            "Bangun tidur siang - Ashar":[
+                "TesnorFlow",
+                "Buku Python",
+                "SPORT",
+                "Ar-Rahman +4"
+            ],
+            "Ashar - Isha":[
+                "MUSASHI -bab"
+            ]
+            
+        },
+        "Rabu":{
+            "Habis sholat subuh":[
+                "Dzikir 100x",
+                "SPORT",
+                "Matematika",
+                "English",
+                "Ar-Rahman +4"
+            ],
+            "Setelah azan dzuhur":[
+                "Sholat dzuhur",
+                "Tidur Siang"
+            ],
+            "Bangun tidur siang - Ashar":[
+                "TesnorFlow",
+                "Kali Linux",
+                "SPORT",
+                "Ar-Rahman +4"
+            ],
+            "Ashar - Isha":[
+                "MUSASHI -bab"
+            ]
+            
+        },
+        "Kamis":{
+            "Habis sholat subuh":[
+                "Dzikir 100x",
+                "SPORT",
+                "Informatika",
+                "Seni budaya",
+                "Ar-Rahman +4"
+            ],
+            "Setelah azan dzuhur":[
+                "Sholat dzuhur",
+                "Tidur Siang"
+            ],
+            "Bangun tidur siang - Ashar":[
+                "TesnorFlow",
+                "Buku Python",
+                "SPORT",
+                "Ar-Rahman +4"
+            ],
+            "Ashar - Isha":[
+                "MUSASHI -bab"
+            ]
+            
+        },
+        "Jumat":{
+            "Habis sholat subuh":[
+                "Dzikir 100x",
+                "SPORT",
+                "Pancasila",
+                "PJOK",
+                "Ar-Rahman +4"
+            ],
+            "Setelah azan dzuhur":[
+                "Sholat dzuhur",
+                "Tidur Siang"
+            ],
+            "Bangun tidur siang - Ashar":[
+                "TesnorFlow",
+                "Kali Linux",
+                "SPORT",
+                "Ar-Rahman +4"
+            ],
+            "Ashar - Isha":[
+                "MUSASHI -bab"
+            ]
+            
+        },
+        "Sabtu":{
+            "Habis sholat subuh":[
+                "Dzikir 100x",
+                "SPORT",
+                "Pancasila",
+                "PJOK",
+                "Ar-Rahman +4"
+            ],
+            "Setelah azan dzuhur":[
+                "Sholat dzuhur",
+                "Tidur Siang"
+            ],
+            "Bangun tidur siang - Ashar":[
+                "TesnorFlow",
+                "Buku Python",
+                "SPORT",
+                "Ar-Rahman +4"
+            ],
+            "Ashar - Isha":[
+                "MUSASHI -bab"
+            ]
+            
+        }
+    }
+}

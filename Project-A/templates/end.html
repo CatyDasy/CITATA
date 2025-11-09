@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html lang="tr"></html>
+<head>  
+    <meta charset="UTF-8">
+    <title>SONUÇLAR</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body>
+    <h1>SONUÇLAR</h1>
+    <h3>Musa'nın Tamamladıkları:</h3>
+    <ul class="todo-list">
+    {% for todo in musa_completed %}
+        <li>
+            <span>{{ todo }}</span>
+        </li>
+    {% endfor %}
+    </ul>
+
+    <h3>Samil'in Tamamladıkları:</h3>
+    <ul class="todo-list">
+    {% for todo in samil_completed %}
+        <li>
+            <span>{{ todo }}</span>
+        </li>
+    {% endfor %}
+    </ul>
+
+    <h3>Yusa'nın Tamamladıkları:</h3>
+    <ul class="todo-list">
+    {% for todo in yusa_completed %}
+        <li>
+            <span>{{ todo }}</span>
+        </li>
+    {% endfor %}
+    </ul>

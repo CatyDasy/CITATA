@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>To-Do List with Persistence</title>
+    <style>
+        body {
+            text-align: center;
+            font-size: 40px;
+            font-family: serif;
+        }
+        
+        ul {
+            list-style: none;
+        }
+        
+        .todo-list input[type="checkbox"] {
+            margin-right: 12px;
+            transform: scale(2.8);
+            margin-top: 12px;
+            cursor: pointer;
+        }
+        
+        .todo-list li {
+            margin: 15px 0;
+        }
+        
+        .completed {
+            text-decoration: line-through;
+            opacity: 0.6;
+        }
+        
+        .reset-btn {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>To-Do List with Checkbox Persistence</h1>
+    <h2>Day: Saturday</h2>
+    <h2>Time: 02:30 PM</h2>
+    <h3>Tasks:</h3>
+    
+    <ul class="todo-list" id="todoList">
+        <li>
+            <input type="checkbox" id="task-0" data-task="Dzikir 100x">
+            <span>Dzikir 100x 📿</span>
+        </li>
+        <li>
+            <input type="checkbox" id="task-1" data-task="SPORT">
+            <span>SPORT 💪</span>
+        </li>
+        <li>
+            <input type="checkbox" id="task-2" data-task="Pancasila">
+            <span>Pancasila 📚</span>
+        </li>
+        <li>
+            <input type="checkbox" id="task-3" data-task="PJOK">
+            <span>PJOK ⚽</span>
+        </li>
+        <li>
+            <input type="checkbox" id="task-4" data-task="Ar-Rahman +4">
+            <span>Ar-Rahman +4 📖</span>
+        </li>
+    </ul>
+    
+    <button class="reset-btn" onclick="resetAllTasks()">Reset All Tasks</button>
+
+    <script>
+        // Storage key - include user name and date to make it unique
+        const STORAGE_KEY = 'todo_checkboxes_samil_2025-11-08';
+        
+        // Load saved checkbox states when page loads
+        function loadCheckboxStates() {
+            const savedStates = localStorage.getItem(STORAGE_KEY);
+            if (savedStates) {
+                const states = JSON.parse(savedStates);
+                
+                // Apply saved states to checkboxes
+                Object.keys(states).forEach(taskId => {
+                    const checkbox = document.getElementById(taskId);
+                    if (checkbox) {
+                        checkbox.checked = states[taskId];
+                        updateTaskAppearance(checkbox);
+                    }
+                });
+            }
+        }
+        
+        // Save checkbox state to localStorage
+        function saveCheckboxState(checkbox) {
+            // Get current saved states or create empty object
+            const savedStates = localStorage.getItem(STORAGE_KEY);
+            const states = savedStates ? JSON.parse(savedStates) : {};
+            
+            // Update the state for this checkbox
+            states[checkbox.id] = checkbox.checked;
+            
+            // Save back to localStorage
+            localStorage.setItem(STORAGE_KEY, JSON.stringify(states));
+            
+            // Update visual appearance
+            updateTaskAppearance(checkbox);
+        }
+        
+        // Update visual appearance of completed tasks
+        function updateTaskAppearance(checkbox) {
+            const span = checkbox.nextElementSibling;
+            if (checkbox.checked) {
+                span.classList.add('completed');
+            } else {
+                span.classList.remove('completed');
+            }
+        }
+        
+        // Reset all tasks
+        function resetAllTasks() {
+            if (confirm('Are you sure you want to reset all tasks?')) {
+                localStorage.removeItem(STORAGE_KEY);
+                
+                // Uncheck all checkboxes
+                document.querySelectorAll('.todo-list input[type="checkbox"]').forEach(checkbox => {
+                    checkbox.checked = false;
+                    updateTaskAppearance(checkbox);
+                });
+            }
+        }
+        
+        // Add event listeners to all checkboxes
+        document.querySelectorAll('.todo-list input[type="checkbox"]').forEach(checkbox => {
+            checkbox.addEventListener('change', function() {
+                saveCheckboxState(this);
+            });
+        });
+        
+        // Load saved states when page loads
+        loadCheckboxStates();
+    </script>
+</body>
+</html>

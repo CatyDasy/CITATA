@@ -1,0 +1,205 @@
+{
+    "Comments": [
+        "SPORT= Push-Up 15x 💪, Pull-up 10x 💪, FirazZahabi 30x, FirazWalkingZahabi 🚶‍♂️"
+    ],
+    "TODOS": {
+        "Minggu": {
+            "04:30 AM": [
+                "Bebasin Budak 📿",
+                "Puzzle Book 🧩",
+                "English 📘",
+                "Sport 💪",
+                "Quran 📖"
+            ],
+            "12:00 PM": [
+                "Makan 🍽️",
+                "Istirahat 😌",
+                "Tidur siang - BAGUS!!! 😴"
+            ],
+            "02:55 PM": [
+                "Tech 💻",
+                "Sport 💪",
+                "Quran 📖"
+            ],
+            "06:00 PM": [
+                "Lanjutin tech kalau ada 💻",
+                "Istirahat 😌"
+            ],
+            "07:00 PM": [
+                "Lanjutin Istirahat 😌",
+                "Tidur 🌙"
+            ]
+        },
+        "Senin": {
+            "04:30 AM": [
+                "Bebasin Budak 📿",
+                "Puzzle Book 🧩",
+                "English 📘",
+                "Sport 💪",
+                "Quran 📖"
+            ],
+            "12:00 PM": [
+                "Makan 🍽️",
+                "Istirahat 😌",
+                "Tidur siang - BAGUS!!! 😴"
+            ],
+            "02:55 PM": [
+                "Seni Budaya 🎨",
+                "Tech 💻",
+                "Sport 💪",
+                "Quran 📖"
+            ],
+            "06:00 PM": [
+                "Makan 🍽️",
+                "Lanjutin tech kalau ada 💻"
+            ],
+            "07:00 PM": [
+                "Istirahat 😌",
+                "Tidur 🌙"
+            ]
+        },
+        "Selasa": {
+            "04:30 AM": [
+                "Bebasin Budak 📿",
+                "Puzzle Book 🧩",
+                "English 📘",
+                "Sport 💪",
+                "Quran 📖"
+            ],
+            "12:00 PM": [
+                "Makan 🍽️",
+                "Istirahat 😌",
+                "Tidur siang - BAGUS!!! 😴"
+            ],
+            "02:55 PM": [
+                "IPAS 🔬",
+                "Tech 💻",
+                "Sport 💪",
+                "Quran 📖"
+            ],
+            "06:00 PM": [
+                "Makan 🍽️",
+                "Lanjutin tech kalau ada 💻"
+            ],
+            "07:00 PM": [
+                "Lanjutin Istirahat 😌",
+                "Tidur 🌙"
+            ]
+        },
+        "Rabu": {
+            "04:30 AM": [
+                "Bebasin Budak 📿",
+                "Puzzle Book 🧩",
+                "English 📘",
+                "Sport 💪",
+                "Quran 📖"
+            ],
+            "12:00 PM": [
+                "Makan 🍽️",
+                "Istirahat 😌",
+                "Tidur siang - BAGUS!!! 😴"
+            ],
+            "02:55 PM": [
+                "PJOK ⚽",
+                "Tech 💻",
+                "Sport 💪",
+                "Quran 📖"
+            ],
+            "06:00 PM": [
+                "Makan 🍽️",
+                "Lanjutin tech kalau ada 💻"
+            ],
+            "07:00 PM": [
+                "Lanjutin Istirahat 😌",
+                "Tidur 🌙"
+            ]
+        },
+        "Kamis": {
+            "04:30 AM": [
+                "Bebasin Budak 📿",
+                "Puzzle Book 🧩",
+                "English 📘",
+                "Sport 💪",
+                "Quran 📖"
+            ],
+            "12:00 PM": [
+                "Makan 🍽️",
+                "Istirahat 😌",
+                "Tidur siang - BAGUS!!! 😴"
+            ],
+            "02:55 PM": [
+                "Tech 💻",
+                "Sport 💪",
+                "Quran 📖"
+            ],
+            "06:00 PM": [
+                "Makan 🍽️",
+                "Lanjutin tech kalau ada 💻"
+            ],
+            "07:00 PM": [
+                "Lanjutin Istirahat 😌",
+                "Tidur 🌙"
+            ]
+        },
+        "Jumat": {
+            "04:30 AM": [
+                "Bebasin Budak 📿",
+                "Kahf 📜",
+                "Shalawat 100x 🤲",
+                "Quran 📖",
+                "Sport 💪",
+                "Mandi 💦",
+                "Jumatan 🕌",
+                "Puzzle Book 🧩",
+                "English 📘"
+            ],
+            "12:00 PM": [
+                "Makan 🍽️",
+                "Istirahat 😌",
+                "Tidur siang - BAGUS!!! 😴"
+            ],
+            "02:55 PM": [
+                "Writing ✍️",
+                "Tech 💻",
+                "Sport 💪",
+                "Quran 📖"
+            ],
+            "06:00 PM": [
+                "Makan 🍽️",
+                "Lanjutin tech kalau ada 💻"
+            ],
+            "07:00 PM": [
+                "Lanjutin Istirahat 😌",
+                "Tidur 🌙"
+            ]
+        },
+        "Sabtu": {
+            "04:30 AM": [
+                "Bebasin Budak 📿",
+                "Puzzle Book 🧩",
+                "English 📘",
+                "Sport 💪",
+                "Quran 📖"
+            ],
+            "12:00 PM": [
+                "Makan 🍽️",
+                "Istirahat 😌",
+                "Tidur siang - BAGUS!!! 😴"
+            ],
+            "02:55 PM": [
+                "Matematik Soru Bankasi ✏️",
+                "Tech 💻",
+                "Sport 💪",
+                "Quran 📖"
+            ],
+            "06:00 PM": [
+                "Makan 🍽️",
+                "Lanjutin tech kalau ada 💻"
+            ],
+            "07:00 PM": [
+                "Lanjutin Istirahat 😌",
+                "Tidur 🌙"
+            ]
+        }
+    }
+}
